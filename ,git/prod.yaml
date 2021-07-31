@@ -23,12 +23,12 @@ This workflow will build and push a new container image to Amazon ECR,
 #    See the documentation for each action used below for the recommended IAM policies for this IAM user,
 #    and best practices on handling the access key credentials.
 
-on:
-  push:
+on :
+   push:
     branches:
       - main
 
-name: Deploy to Amazon ECS
+name :Deploy to Amazon ECS
 
 jobs:
   deploy:
